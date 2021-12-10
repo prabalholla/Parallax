@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Loto", sans-serif;
+  font-weight: 400;
+  line-height: 1.8cm;
+  color: #666;
+}
+.ping1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 0.7;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+.pimg1 {
+  background-image: url("../m10.jpg");
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url("../m7.jpg");
+  min-height: 500px;
+}
+
+.pimg3 {
+  background-image: url("../m8.jpg");
+  min-height: 100%;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}
+
+.section-light {
+  background-color: whitesmoke;
+  color: black;
+}
+
+.section-dark {
+  background-color: black;
+  color: white;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #111;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
